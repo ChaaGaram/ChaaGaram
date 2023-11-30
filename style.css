@@ -1,0 +1,98 @@
+*{
+    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Roboto', sans-serif;
+}
+
+#pre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+#ordernow h3{
+    -webkit-text-stroke: 2px rgb(245, 130, 16); /* For WebKit browsers like Chrome and Safari */
+    color: rgb(0, 0, 0);
+}
+.card button {
+    background-color: transparent;
+    background-color: rgba(245, 170, 40, 0.498);
+    color: #000000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #ffbd07;
+    color: #ffffff; /* Set text color to white on hover */
+}
+
+.navbar-brand img{
+    height: 60px;
+    width: 130px;
+}
+
+#banner .bg-image{
+    background-image: url('./images/bg\ banner-01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+}
+
+.logo img{
+    height: 30px;
+    width: 65px;
+}
+
+#ordernow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    background-image: url('./images/order\ bg-01.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#ordernow .container {
+    max-width: 600px;
+}
+
+#ordernow h3 {
+    font-size: 3em;
+}
+
+#ordernow a.btn {
+    box-shadow: 0 4px 8px rgba(4, 0, 0, 0.604);
+}
+
+#cardContainer {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px; /* Adjust the gap between cards as needed */
+    padding: 20px; /* Add padding to the container */
+}
+
+#cardContainer.card {
+    flex: 0 0 auto; /* Maintain the card's initial size */
+    width: 200px; /* Set the width of each card as needed */
+    text-align: center;
+}
+
+.carousel-inner {
+    transition: transform 0.8s ease-in-out;
+}
+
+/* Dark carousel controls with larger buttons */
+.carousel-control-prev, .carousel-control-next {
+    background-color: rgba(255, 163, 4, 0.744);
+    border: none;
+    font-size: 30px;
+    width: 60px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(1);
+}
+
