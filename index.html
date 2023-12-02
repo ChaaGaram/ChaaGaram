@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link rel="shortcut icon" type="image/x-icon" href="./images/chaa.png" />
+    <title>Chaa GAram</title>
+</head>
+
+<body class="bg-dark">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./images/LOGO-01.png" alt=""></a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div id="banner">
+        <header class="bg-image text-white py-1">
+            <div class="container-fluid">
+                <div id="title" class="container m-3">
+                    <p class="display-5">Discover the finest snacks, tea and coffee in Mirpur</p>
+                </div>
+                <div class="container m-3">
+                    <a href="#menus" class="btn btn-warning btn-lg m-2">MENU</a>
+                    <a href="#ordernow" class="btn btn-warning btn-lg m-2">PRE-ORDER</a>
+                    <a href="#Location" class="btn btn-warning btn-lg m-2">VISIT SHOP</a>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="bg-dark d-flex justify-content-center align-items-center py-3">
+        <div>
+            <a class="navbar-brand" href="#"><img src="./images/LOGO-01.png" alt=""></a>
+        </div>
+        <div>
+            <h1 class="text-white">MENU</h1>
+        </div>
+    </div>
+
+    <section id="menus" class="bg-dark">
+        <!-- row 1 -->
+        <div class="card-group">
+            <!-- Card 1 -->
+            <div class="card bg-dark">
+                <img src="./images/Milk Tea.jpg" class="card-img" alt="Not Available!">
+                <div class="card-img-overlay">
+                    <!-- Button -->
+                    <button class="btn py-2" data-bs-toggle="modal" data-bs-target="#modalMenuCardOne">Milk Tea</button>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="modalMenuCardOne" tabindex="-1" aria-labelledby="modalMenuCardOneLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <img src="./images/Milk Tea.jpg" class="img-fluid" alt="Not Available!">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card text-white bg-dark">
+                <img src="./images/Black Tea.jpg" class="card-img" alt="Not Available!">
+                <div class="card-img-overlay">
+                    <!-- Button -->
+                    <button class="btn py-2" data-bs-toggle="modal" data-bs-target="#modalMenuCardTwo">Black Tea</button>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="modalMenuCardTwo" tabindex="-1" aria-labelledby="modalMenuCardTwoLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <img src="./images/Black Tea.jpg" class="img-fluid" alt="Not Available!">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card text-white bg-dark">
+                <img src="./images/Hot Coffee.jpg" class="card-img" alt="Not Available!">
+                <div class="card-img-overlay">
+                    <!-- Button -->
+                    <button class="btn py-2" data-bs-toggle="modal" data-bs-target="#modalMenuCardThree">Hot Coffee</button>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="modalMenuCardThree" tabindex="-1" aria-labelledby="modalMenuCardThreeLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <img src="./images/Hot Coffee.jpg" class="img-fluid" alt="Not Available!">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="card text-white bg-dark">
+                <img src="./images/Cold Coffee.jpg" class="card-img" alt="Not Available!">
+                <div class="card-img-overlay">
+                    <!-- Button -->
+                    <button class="btn py-2" data-bs-toggle="modal" data-bs-target="#modalMenuCardFour">Cold Coffee</button>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="modalMenuCardFour" tabindex="-1" aria-labelledby="modalMenuCardFourLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <img src="./images/Cold Coffee.jpg" class="img-fluid" alt="Not Available!">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- row 2 -->
+        <div class="card-group">
+            <!-- Card 1 -->
+            <div class="card bg-dark">
+                <img src="./images/Fresh Juice.jpg" class="card-img" alt="Not Available!">
+                <div class="card-img-overlay">
+                    <!-- Button -->
+                    <button class="btn py-2" data-bs-toggle="modal" data-bs-target="#modalMenuCardFive">Fresh Juice</button>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="modalMenuCardFive" tabindex="-1" aria-labelledby="modalMenuCardFiveLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <img src="./images/Fresh Juice.jpg" class="img-fluid" alt="Not Available!">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card text-white bg-dark">
+                <img src="./images/Snacks.jpg" class="card-img" alt="Not Available!">
+                <div class="card-img-overlay">
+                    <!-- Button -->
+                    <button class="btn py-2" data-bs-toggle="modal" data-bs-target="#modalMenuCardSix">Snacks</button>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="modalMenuCardSix" tabindex="-1" aria-labelledby="modalMenuCardSixLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <img src="./images/Snacks.jpg" class="img-fluid" alt="Not Available!">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card text-white bg-dark">
+                <img src="./images/Hot Coffee.jpg" class="card-img" alt="Not Available!">
+                <div class="card-img-overlay">
+                    <!-- Button -->
+                    <button class="btn py-2" data-bs-toggle="modal" data-bs-target="#modalMenuCardThree">Hot Coffee</button>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="modalMenuCardThree" tabindex="-1" aria-labelledby="modalMenuCardThreeLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <img src="./images/Hot Coffee.jpg" class="img-fluid" alt="Not Available!">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="card text-white bg-dark">
+                <img src="./images/Cold Coffee.jpg" class="card-img" alt="Not Available!">
+                <div class="card-img-overlay">
+                    <!-- Button -->
+                    <button class="btn py-2" data-bs-toggle="modal" data-bs-target="#modalMenuCardFour">Cold Coffee</button>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="modalMenuCardFour" tabindex="-1" aria-labelledby="modalMenuCardFourLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <img src="./images/Cold Coffee.jpg" class="img-fluid" alt="Not Available!">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRE-ORDER MENU set -->
+
+    <section class="bg-dark">
+        <div class="bg-dark d-flex justify-content-center align-items-center py-3">
+            <div>
+                <a class="navbar-brand" href="#"><img src="./images/cg logo.png" alt=""></a>
+            </div>
+            <div>
+                <h1 id="pre" class="text-white">PRE-ORDER MENU</h1>
+            </div>
+        </div>
+    
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Your existing cards for the first set -->
+                <div class="swiper-slide">
+                    <div class="d-flex justify-content-around">
+                        <!-- Your existing content for each card -->
+                        <div class="card text-white bg-dark">
+                            <img src="./images/Milk Tea.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                                <button class="btn py-2">Fresh Juice</button>
+                            </div>
+                        </div>
+                        <!-- Add more cards as needed -->
+                    </div>
+                </div>
+    
+                <!-- Add more swiper slides for additional sets of cards -->
+                <div class="swiper-slide">
+                    <div class="d-flex justify-content-around">
+                        <!-- Your existing content for each card in the second set -->
+                        <div class="card text-white bg-dark">
+                            <img src="./images/Black Tea.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                                <button class="btn py-2">Fresh Juice</button>
+                            </div>
+                        </div>
+                        <!-- Add more cards as needed -->
+                    </div>
+                </div>
+                <!-- Repeat as needed -->
+            </div>
+        </div>
+    </section>
+    
+    
+
+
+    <!-- pre-order Section -->
+    <section id="ordernow" class="bg-light py-5">
+        <div class="text-center py-3">
+            <h3>Pre-Order on</h3>
+        </div>
+        <div class="container text-center">
+            <a href="https://wa.me/+8801977776307?text=I%20want%20to%20place%20an%20order%20" target="_blank" class="btn btn-success btn-lg m-2">
+            <i class="fab fa-whatsapp"></i> WhatsApp</a>
+
+            <a href="http://m.me/chaagarambd/?text=I%20want%20to%20place%20an%20order%20" target="_blank" class="btn btn-primary btn-lg m-2">
+            <i class="fab fa-facebook-messenger"></i> Messenger</a>
+
+            <a href="tel:+8801977776307" class="btn btn-danger btn-lg m-2">
+            <i class="fas fa-phone"></i> Call Now</a>
+        </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section id="features" class="py-3 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="./images/TT 1-01.png" class="card-img-top" alt="Feature 1">
+                        <div class="card-body text-center">
+                            <!-- CHANGE REVIEW LINK HERE ⬇️-->
+                            <a href="https://g.co/kgs/iDGC4u" class="btn btn-danger rounded-circle m-2">
+                                <i class="fa-brands fa-google"></i>
+                            </a>
+                            <!-- CHANGE REVIEW LINK HERE ⬇️-->
+                            <a href="https://www.facebook.com/chaagarambd/reviews" class="btn btn-primary rounded-circle m-2">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="./images/TT 2-01.png" class="card-img-top" alt="Feature 2">
+                        <div class="card-body text-center">
+                            <!-- CHANGE REVIEW LINK HERE ⬇️-->
+                            <a href="https://g.co/kgs/RrB98w" class="btn btn-danger rounded-circle m-2">
+                                <i class="fa-brands fa-google"></i>
+                            </a>
+                            <!-- CHANGE REVIEW LINK HERE ⬇️-->
+                            <a href="https://www.facebook.com/chaagarambd/reviews" class="btn btn-primary rounded-circle m-2">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="./images/TT 3-01.png" class="card-img-top" alt="Feature 3">
+                        <div class="card-body text-center">
+                            <!-- CHANGE REVIEW LINK HERE ⬇️-->
+                            <a href="https://g.co/kgs/FgJqm3" class="btn btn-danger rounded-circle m-2">
+                                <i class="fa-brands fa-google"></i>
+                            </a>
+                            <!-- CHANGE REVIEW LINK HERE ⬇️-->
+                            <a href="https://www.facebook.com/chaagarambd/reviews" class="btn btn-primary rounded-circle m-2">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- map Section -->
+    <div id="Location" class="bg-dark d-flex justify-content-center align-items-center py-3">
+        <div>
+            <a class="navbar-brand" href="#"><img src="./images/LOGO-01.png" alt=""></a>
+        </div>
+        <div>
+            <h1 class="text-white">Location</h1>
+        </div>
+    </div>
+
+    <section class="content d-flex justify-content-center align-items-center">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://maps.google.com/maps?q=Chaa+Garam+(চা+গরম)/@23.7977434,90.3622926,17z/data=&z=13&ie=UTF8&iwloc=&output=embed" allowfullscreen width="900" height="200"></iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; copyright by <a class="logo" href="#"><img src="./images/LOGO-01.png" alt=""></a> 2023</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>
